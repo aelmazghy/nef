@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658921231951</updated>
-      <workItem from="1658921239329" duration="2550000" />
+      <workItem from="1658921239329" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -80,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658926388932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add css root">
+      <created>1658926572313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658926572313</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edit pdf name">
+      <created>1658926736615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658926736615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +106,8 @@
     <MESSAGE value="add vuetify" />
     <MESSAGE value="add poster" />
     <MESSAGE value="rm pdf to index" />
-    <option name="LAST_COMMIT_MESSAGE" value="rm pdf to index" />
+    <MESSAGE value="add css root" />
+    <MESSAGE value="edit pdf name" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit pdf name" />
   </component>
 </project>
