@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/affiche.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ig.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logoBlanc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/cae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/ligue88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/pref.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/vev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/xer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/nef.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/nefsvg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdf/numerique_en_fete.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numerique_en_fete.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/affiche.html" beforeDir="false" afterPath="$PROJECT_DIR$/affiche.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +63,7 @@
       <workItem from="1658921239329" duration="4825000" />
       <workItem from="1659095385347" duration="7000" />
       <workItem from="1659189474346" duration="8000" />
-      <workItem from="1659891767615" duration="19360000" />
+      <workItem from="1659891767615" duration="20624000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -121,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658926881428</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="push 2nd version">
+      <created>1659969621848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659969621848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +127,7 @@
     <MESSAGE value="rm pdf to index" />
     <MESSAGE value="add css root" />
     <MESSAGE value="edit pdf name" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit pdf name" />
+    <MESSAGE value="push 2nd version" />
+    <option name="LAST_COMMIT_MESSAGE" value="push 2nd version" />
   </component>
 </project>
