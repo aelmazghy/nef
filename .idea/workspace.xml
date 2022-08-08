@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/affiche.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logoBlanc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/cae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/ligue88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/pref.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/vev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/xer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/nef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/nefsvg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pdf/numerique_en_fete.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numerique_en_fete.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,10 +57,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -58,7 +74,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658921231951</updated>
-      <workItem from="1658921239329" duration="2844000" />
+      <workItem from="1658921239329" duration="4825000" />
+      <workItem from="1659095385347" duration="7000" />
+      <workItem from="1659189474346" duration="8000" />
+      <workItem from="1659891767615" duration="19360000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -95,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658926736615</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit pdf name">
+      <created>1658926881428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658926881428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
