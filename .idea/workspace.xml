@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659970845002</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="merge it">
+      <created>1659988928945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659988928945</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="edit pdf name" />
     <MESSAGE value="push 2nd version" />
     <MESSAGE value="add ig contact page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ig contact page" />
+    <MESSAGE value="merge it" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge it" />
   </component>
 </project>
