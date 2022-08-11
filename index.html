@@ -1,33 +1,531 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Numérique en fête</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
-    <link href="assets/css/app.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numérique en Fête - Vosges</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Evénement numérique organisé et porté par l’association Les petits Débrouillards Grand Est, avec l’accompagnement de la CAE et du CD88, mais se veut en co-construction avec l’ensemble des acteurs numérique du département">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- CSS
+    ============================================ -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="assets/css/gordita-font.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
-<div id="app">
-    <v-app>
-        <v-main>
+    <div class="main-wrapper">
 
-            <embed
-                    src="assets/pdf/numerique_en_fete.pdf#toolbar=0&navpanes=0&scrollbar=0"
-                    width="100%" height="100%" />
-        </v-main>
-    </v-app>
-</div>
+        <!-- Begin Main Header Area -->
+        <header class="header">
+            <div class="header-area header-position-absolute header-sticky header-style-4">
+                <div class="container header-container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2 col-6">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/img/logos/logobg.svg" alt="Header Logo">
+                            </a>
+                        </div>
+                        <div class="col-xl-6 col-lg-8 d-none d-lg-block">
+                            <div class="header-menu text-lg-center">
+                                <nav class="header-menu-nav onepage-nav">
+                                    <ul>
+                                        <li class="header-drop-holder">
+                                            <a href="index.html">Accueil</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#feature">Programme</a>
+                                        </li>
+                                        <li>
+                                            <a href="#testimonial">Partenaires</a>
+                                        </li>
+                                        <li class="header-drop-holder">
+                                            <a href="#">Informations</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-2 col-6">
+                            <ul class="header-right">
+                                <li class="d-none d-md-block">
+                                    <a class="btn btn-custom-size btn-md blackcurrant-color extbot-primary-hover-4" href="contact.html">Contact</a>
+                                </li>
+                                <li class="d-flex d-lg-none">
+                                    <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                        <i class="icofont-navigation-menu"></i>
+                                    </button>
+                                </li>
+                                <li class="setting-btn-wrap d-block d-md-none">
+                                    <a href="#" class="setting-btn">
+                                        <i class="icofont-ui-settings"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="setting-body">
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
-<script>
-    new Vue({
-        el: '#app',
-        vuetify: new Vuetify(),
-    })
-</script>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="header-logo">
+                        <img src="assets/img/logos/logobg.svg" alt="Header Logo">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="header-offcanvas-menu">
+                        <nav class="header-offcanvas-nav onepage-offcanvas-nav">
+                            <ul>
+                                <li>
+                                    <div class="dropdown d-grid">
+                                        <button type="button" class="btn" aria-expanded="false">
+                                            Accueil
+                                            <i class="icofont-rounded-down"></i>
+                                        </button>
+
+                                    </div>
+                                </li>
+                                <li class="active">
+                                    <a href="#feature">Programme</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonial">Testimonial</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonial">Partenaires</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonial">Informations</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Header Area End Here -->
+
+        <!-- Begin Hero Area -->
+        <div class="hero-area hero-bg hero-style-4" data-bg-image="assets/images/hero/bg/_4-1920x1055.png">
+            <div class="container">
+                <div class="hero-item">
+                    <div class="hero-content">
+                        <h1 class="title">Numérique en Fête 🥳<br><span>Vosges</span> </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End Here -->
+
+
+
+
+        <!-- intro -->
+        <div class="trial-area trial-style-1" style=" padding-bottom: 0; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="trial-item">
+                            <span class="trial-category">Vendredi 21 octobre de 10h à 19h sur la commune de Xertigny</span>
+                            <h2 class="trial-title">Venez participer</h2>
+                            <p class="trial-desc">
+                                le vendredi 21 octobre à l'événement incontournable du numérique à Xertigny.
+                                Des experts vous accueilleront pour partager avec vous leur passion des nouvelles technologies au travers d'expériences ludiques et originales adaptées à tous les âges.
+                                Retrouvez également de nombreuses discussions sous forme de tables rondes tout au long de la journée.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- intro -->
+
+
+
+
+<!---->
+        <div id="feature" class="feature-area feature-style-4">
+            <div class="container feature-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="feature-img">
+                            <div class="single-img">
+                                <img src="assets/images/feature/image/1-1-647x892.png" alt="Feature Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature-list-content">
+                            <h2 class="feature-title">Numérique en fête</h2>
+                            <p class="feature-desc">
+                                c'est aussi l'occasion pour toutes et tous de
+                                partager des moments conviviaux.
+                            </p>
+                            <div class="feature-wrap">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <img src="assets/images/feature/icon/3-1-47x47.png" alt="Feature Icon">
+                                    </div>
+                                    <div class="feature-content">
+                                        <h3 class="title">Gratuit</h3>
+                                        <p class="desc">
+                                            Accès gratuit à toutes les animations de l'événement.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <img src="assets/images/feature/icon/3-1-47x47.png" alt="Feature Icon">
+                                    </div>
+                                    <div class="feature-content">
+                                        <h3 class="title">Ouvert à tous</h3>
+                                        <p class="desc">
+                                            Des activités adaptées pour tous les âges.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <img src="assets/images/feature/icon/3-1-47x47.png" alt="Feature Icon">
+                                    </div>
+                                    <div class="feature-content">
+                                        <h3 class="title">Nouvelles technologies</h3>
+                                        <p class="desc">
+                                            Profitez de cet événement pour tester
+                                            les derniers équipements HighTech.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trial-area trial-style-1" style=" padding-bottom: 20px; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="trial-item">
+                            <span class="trial-category">Le Programme</span>
+                            <h2 class="trial-title">Plusieurs espaces </h2>
+                            <p class="trial-desc">
+                                ont étés pensés pour permettre à toutes et à
+                                tous de trouver rapidement les ateliers qui les
+                                intéressent.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-area banner-style-8" data-bg-image="assets/images/banner/es_enfant">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 align-self-center">
+                        <div class="banner-item">
+                            <div class="banner-content common-style">
+                                <span class="banner-category">10h00 - 19h00 - Xertithéque <br>2 Bis Rue du Commandant Saint-Sernin</span>
+                                <h2 class="banner-title">Espace Enfant
+                                </h2>
+                                <p class="banner-desc">
+                                    Il n'est pas nécessaire d'être jeune pour
+                                    avoir l'âme d'un enfant. Venez découvrir
+                                    de nombreux jeux et expériences ludiques pour
+                                    s'initier aux différents usages du numériques.
+                                </p>
+                                <div class="banner-btn-wrap">
+                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="">Voir le programme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-area banner-style-8" data-bg-image="assets/images/banner/es_forum">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 align-self-center">
+                        <div class="banner-item">
+                            <div class="banner-content common-style">
+                                <span class="banner-category">10h00 - 19h00 - Salle Polyvalente <br>280 Route d'Epinal au Centre</span>
+                                <h2 class="banner-title" style=" color: #fff; ">Espace Forum</h2>
+                                <p class="banner-desc" style=" color: #cacaca; ">
+                                    Quiz, ateliers, expériences, informations et
+                                    jeux vous sont proposés dans cet espace qui
+                                    fait la part belle aux technologies originales.
+                                </p>
+                                <div class="banner-btn-wrap">
+                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="" style=" background-color: #ff8145; ">Voir le programme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-area banner-style-8" data-bg-image="assets/images/banner/es_enfant">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 align-self-center">
+                        <div class="banner-item">
+                            <div class="banner-content common-style">
+                                <span class="banner-category">10h00 - 19h00 - Salle des fêtes</span>
+                                <h2 class="banner-title">Espace Tables rondes</h2>
+                                <p class="banner-desc">
+                                    Traitant de sujets variés, venez assister à
+                                    ces tables rondes animées par des experts du
+                                    numérique.
+                                </p>
+                                <div class="banner-btn-wrap">
+                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="" style=" background-color: #ff8145; ">Voir le programme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-area banner-style-8" data-bg-image="assets/images/banner/es_forum">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 align-self-center">
+                        <div class="banner-item">
+                            <div class="banner-content common-style">
+                                <span class="banner-category">10h00 - 19h00 - Place du marché</span>
+                                <h2 class="banner-title" style=" color: #fff; ">Espace bus Microfolies</h2>
+                                <p class="banner-desc" style=" color: #cacaca; ">
+                                    Un atelier de fabrication numérique itinérant
+                                    qui vous propose de découvrir l'impression 3D
+                                    ainsi que de nombreuses oeuvres numériques.
+                                </p>
+                                <div class="banner-btn-wrap">
+                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="" style=" background-color: #ff8145; ">Voir le programme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="faq-area faq-style-common faq-style-1">
+            <div class="container">
+                <div class="section-area">
+                    <h2 class="section-title">Questions/Réponses</h2>
+                    <p class="section-desc">
+                        Vos questions, nos réponses
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-item-wrap row">
+                            <div class="col-12">
+                                <div class="faq-item">
+                                    <h3 class="faq-title">Est-ce que c'est un événement payant ?</h3>
+                                    <p class="faq-desc">
+                                        L'entrée ainsi que l'ensemble des activités
+                                        proposées sont totalement GRATUITES.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="faq-item">
+                                    <h3 class="faq-title">Y a-t-il un parking à proximité pour stationner ?</h3>
+                                    <p class="faq-desc">Une réponse</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-item-wrap row">
+                            <div class="col-12">
+                                <div class="faq-item">
+                                    <h3 class="faq-title">Y a-t-il de quoi se restaurer sur place ?</h3>
+                                    <p class="faq-desc">Une réponse</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="faq-item faq-group-desc">
+                                    <h3 class="faq-title">L'événement est-il accessible aux personnes à mobilité réduite ?</h3>
+                                    <p class="faq-desc">Oui, il est accessible aux personnes à mobilité réduite (les salles comportent un ascenseur et des sanitaires adaptés).</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="faq-item mb-0">
+                                    <h3 class="faq-title">Une question</h3>
+                                    <p class="faq-desc">Une réponse</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin Partner Area -->
+        <div class="partner-area partner-style-4" style=" padding-top: 5px; padding-bottom: 30px; ">
+            <div class="container partner-container">
+                <div class="row">
+                    <div class="section-area">
+                        <h2 class="section-title">Nos Partenaires</h2>
+                        <p class="section-desc" style=" margin-bottom: 0; ">Partenaires institutionnels de l'événement</p>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0">
+                            <img src="assets/img/logos/pref.png" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0">
+                            <img src="assets/img/logos/fr.png" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0">
+                            <img src="assets/img/logos/vev.jpg" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0">
+                            <img src="assets/img/logos/cae.svg" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0">
+                            <img src="assets/img/logos/xer.png" alt="Partner">
+                        </div>
+                    </div>
+                </div><!--row-->
+
+                <div class="row">
+                    <div class="section-area">
+                        <p class="section-desc" style=" margin-bottom: 0; ">Partenaires opérationnels</p>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center other_part">
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0 text-center">
+                            <img src="assets/img/logos/ligue88.png" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0 text-center">
+                            <img src="assets/img/logos/cr.jpeg" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+                        <div class="img-fluid text-gray-600 mb-2 mb-md-0 text-center">
+                            <img src="assets/img/logos/bmi.jpeg" alt="Partner">
+                        </div>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </div>
+
+
+
+        <footer class="footer-style-4" data-bg-image="assets/images/footer/bg/4-1-1920x803.png">
+            <div class="footer-upper-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-upper-top-item">
+
+                                <div class="footer-social-link" style="margin: 0 auto;">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/petitsdebrouillardsEpinal" rel="noreferrer" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" target="_blank">
+                                                <i class="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/lespetitsdebrouillardsepinal/" rel="noreferrer" data-tippy="Instagram" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" target="_blank">
+                                                <i class="icofont-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.lespetitsdebrouillardsgrandest.org/" rel="noreferrer" data-tippy="Site" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" target="_blank">
+                                                <i class="icofont-web"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer-bottom-item">
+                                <div class="footer-copyright white-text">
+                                    <span>
+                                <a href="/" rel="noopener"
+                                    target="_blank">Les Petits Débrouillards</a>
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a class="scroll-to-top style-4" href="">
+            <i class="icofont-arrow-up"></i>
+        </a>
+    </div>
+
+
+
+    <!-- JS Files
+    ============================================ -->
+
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/parallax.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/tippy.min.js"></script>
+    <script src="assets/js/plugins/mailchimp-ajax.js"></script>
+    <script src="assets/js/plugins/one-page-nav.min.js"></script>
+
+    <!--Main JS (Common Activation Codes)-->
+    <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
