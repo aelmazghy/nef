@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/anct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logos/nec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/fr.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logos/fr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/pref.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logos/pref.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/vev.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logos/vev.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/xer.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logos/xer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +73,13 @@
       <workItem from="1659189474346" duration="8000" />
       <workItem from="1659891767615" duration="20822000" />
       <workItem from="1660150438546" duration="22000" />
-      <workItem from="1660202762605" duration="2430000" />
+      <workItem from="1660202762605" duration="4524000" />
+      <workItem from="1660222375968" duration="910000" />
+      <workItem from="1660635877908" duration="1070000" />
+      <workItem from="1660892891981" duration="301000" />
+      <workItem from="1660917174279" duration="14000" />
+      <workItem from="1661265421084" duration="453000" />
+      <workItem from="1661325564495" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -171,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660204289888</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="change p to P">
+      <created>1660206016282</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660206016282</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +226,7 @@
     <MESSAGE value="mini change" />
     <MESSAGE value="mini changes" />
     <MESSAGE value="change btn color" />
-    <option name="LAST_COMMIT_MESSAGE" value="change btn color" />
+    <MESSAGE value="change p to P" />
+    <option name="LAST_COMMIT_MESSAGE" value="change p to P" />
   </component>
 </project>

@@ -4,6 +4,22 @@
 /*  01. Template default CSS
 /*----------------------------------------*/
 /*-- Common Style --*/
+.luzinelab-com {
+  height: auto;
+  width: 160px;
+}
+.luzinelab-com img{
+  height: 100%;
+  max-width: 100%;
+}
+.luzinelab-com2 {
+  height: auto;
+  width: 230px;
+}
+.luzinelab-com2 img{
+  height: 100%;
+  max-width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
