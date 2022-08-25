@@ -271,14 +271,16 @@ veut en co-construction avec l’ensemble des acteurs numérique du département
                                     s'initier aux différents usages du numérique.
                                 </p>
                                 <div class="banner-btn-wrap">
-                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="">Voir le programme</a>
+                                    <a id="show_d_enfant" class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="#!">Voir le programme</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+
 
         <div class="banner-area banner-style-8" data-bg-image="assets/images/banner/es_forum">
             <div class="container">
@@ -294,11 +296,29 @@ veut en co-construction avec l’ensemble des acteurs numérique du département
                                     fait la part belle aux technologies originales.
                                 </p>
                                 <div class="banner-btn-wrap">
-                                    <a class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="" style=" background-color: #ff8145; ">Voir le programme</a>
+                                    <a id="show_d_forum" class="btn btn-custom-size blackberry-color extbot-primary-hover-4" href="#!" style=" background-color: #ff8145; ">Voir le programme</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="d_forum" class="details_forum" style="display: none;">
+            <div class="container" style=" padding-top: 20px; padding-bottom: 20px; background: #ffe4df; margin-top: 10px; margin-bottom: 10px; border-radius: 5px; ">
+                <div class="row">
+                    <p><strong>Programme de l&rsquo;Espace Forum</strong></p>
+
+                    <ul>
+                        <li><strong>- Pascal</strong>, conseiller num&eacute;rique, est pr&eacute;sent pour vous <strong>accompagner</strong> dans toutes vos d&eacute;marches et <strong>vers l&rsquo;autonomie num&eacute;rique</strong>.</li>
+                        <li><strong>- Alice</strong> vous propose un <strong>Quiz Kahoot</strong> autour de XXX.</li>
+                        <li><strong>- Tom</strong> vous invite &agrave; d&eacute;couvrir le <strong>Tovertafel </strong>et le <strong>Bao Pao</strong>, des &eacute;quipements ludiques et th&eacute;rapeutique pour tous les &acirc;ges.</li>
+                        <li><strong>- Fabien</strong> vous guide pour cr&eacute;er votre premier <strong>jeu vid&eacute;o </strong>en moins 30 min &agrave; l&rsquo;aide du logiciel Construct3.</li>
+                        <li><strong>- Abdessamad</strong> est pr&eacute;sent pour vous faire d&eacute;couvrir <strong>Arduino</strong>, cette petite carte &eacute;lectronique programmable, avec laquelle vous allez pouvoir jouer.</li>
+                        <li><strong>- Matthieu</strong> animera un atelier sur la <strong>protection des donn&eacute;es et l&rsquo;utilisation de logiciels libres</strong>.</li>
+                        <li>- La<strong> CAE</strong> vous propose une application utilisant la g&eacute;olocalisation pour chercher et <strong>trouver des &eacute;l&eacute;ments cach&eacute;s</strong> dans la ville de Xertigny.</li>
+                    </ul>
+
                 </div>
             </div>
         </div>
@@ -538,7 +558,6 @@ veut en co-construction avec l’ensemble des acteurs numérique du département
     </div>
 
 
-
     <!-- JS Files
     ============================================ -->
 
@@ -556,7 +575,18 @@ veut en co-construction avec l’ensemble des acteurs numérique du département
 
     <!--Main JS (Common Activation Codes)-->
     <script src="assets/js/main.js"></script>
-
+    <script>
+        $('#show_d_forum').on('click', function () {
+            if ($('#show_d_forum').text() === 'Voir le programme') {
+                $('#show_d_forum').text('Réduire');
+                $('#d_forum').css('display', 'flex');
+            }
+            else {
+                $('#show_d_forum').text('Voir le programme');
+                $('#d_forum').css('display', 'none');
+            }
+        });
+    </script>
 </body>
 
 </html>
