@@ -4,7 +4,6 @@
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="add programme forum">
       <change afterPath="$PROJECT_DIR$/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1660917174279" duration="14000" />
       <workItem from="1661265421084" duration="453000" />
       <workItem from="1661325564495" duration="10316000" />
-      <workItem from="1661416235541" duration="1785000" />
+      <workItem from="1661416235541" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661350618238</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add programme forum">
+      <created>1661418610249</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661418610249</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +266,7 @@
     <MESSAGE value="change logos" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="add tlv logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tlv logo" />
+    <MESSAGE value="add programme forum" />
+    <option name="LAST_COMMIT_MESSAGE" value="add programme forum" />
   </component>
 </project>
