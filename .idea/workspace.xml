@@ -73,7 +73,7 @@
       <workItem from="1660917174279" duration="14000" />
       <workItem from="1661265421084" duration="453000" />
       <workItem from="1661325564495" duration="10316000" />
-      <workItem from="1661416235541" duration="5435000" />
+      <workItem from="1661416235541" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661430337278</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="edit programme">
+      <created>1661431859445</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661431859445</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +282,7 @@
     <MESSAGE value="add tlv logo" />
     <MESSAGE value="add programme forum" />
     <MESSAGE value="change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name" />
+    <MESSAGE value="edit programme" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit programme" />
   </component>
 </project>
