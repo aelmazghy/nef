@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="add programme forum">
-      <change afterPath="$PROJECT_DIR$/assets/images/banner/tronde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/hubest.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -79,7 +77,8 @@
       <workItem from="1661438870930" duration="387000" />
       <workItem from="1661848963087" duration="21000" />
       <workItem from="1661865466661" duration="1525000" />
-      <workItem from="1661930684698" duration="86000" />
+      <workItem from="1661930684698" duration="1058000" />
+      <workItem from="1664370887185" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661439251160</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="edit programme">
+      <created>1661930784065</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1661930784065</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
