@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="add programme forum">
-      <change afterPath="$PROJECT_DIR$/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -45,6 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +79,8 @@
       <workItem from="1661865466661" duration="1525000" />
       <workItem from="1661930684698" duration="1058000" />
       <workItem from="1664370887185" duration="19000" />
+      <workItem from="1664463181276" duration="2312000" />
+      <workItem from="1664799036598" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
