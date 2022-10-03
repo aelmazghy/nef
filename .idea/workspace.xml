@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="add programme forum">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <workItem from="1661930684698" duration="1058000" />
       <workItem from="1664370887185" duration="19000" />
       <workItem from="1664463181276" duration="2312000" />
-      <workItem from="1664799036598" duration="371000" />
+      <workItem from="1664799036598" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -278,7 +277,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661930784065</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="minors changes (programme)">
+      <created>1664799449796</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1664799449796</updated>
+    </task>
+    <task id="LOCAL-00030" summary="remove ,">
+      <created>1664799653757</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1664799653757</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +331,8 @@
     <MESSAGE value="add programme forum" />
     <MESSAGE value="change name" />
     <MESSAGE value="edit programme" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit programme" />
+    <MESSAGE value="minors changes (programme)" />
+    <MESSAGE value="remove ," />
+    <option name="LAST_COMMIT_MESSAGE" value="remove ," />
   </component>
 </project>
