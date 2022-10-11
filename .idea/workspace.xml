@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bda083-6a00-4d0b-9109-71071ed6d1f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,8 @@
       <workItem from="1661930684698" duration="1058000" />
       <workItem from="1664370887185" duration="19000" />
       <workItem from="1664463181276" duration="2312000" />
-      <workItem from="1664799036598" duration="585000" />
+      <workItem from="1664799036598" duration="904000" />
+      <workItem from="1665473404671" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -291,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664799653757</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="&quot;bold&quot; for name">
+      <created>1664799731573</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1664799731573</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +342,7 @@
     <MESSAGE value="edit programme" />
     <MESSAGE value="minors changes (programme)" />
     <MESSAGE value="remove ," />
-    <option name="LAST_COMMIT_MESSAGE" value="remove ," />
+    <MESSAGE value="&quot;bold&quot; for name" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;bold&quot; for name" />
   </component>
 </project>
