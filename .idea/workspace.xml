@@ -81,7 +81,7 @@
       <workItem from="1664370887185" duration="19000" />
       <workItem from="1664463181276" duration="2312000" />
       <workItem from="1664799036598" duration="904000" />
-      <workItem from="1665473404671" duration="1410000" />
+      <workItem from="1665473404671" duration="2201000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664799731573</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="edit content">
+      <created>1665475024843</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665475024843</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +350,7 @@
     <MESSAGE value="minors changes (programme)" />
     <MESSAGE value="remove ," />
     <MESSAGE value="&quot;bold&quot; for name" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;bold&quot; for name" />
+    <MESSAGE value="edit content" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit content" />
   </component>
 </project>
