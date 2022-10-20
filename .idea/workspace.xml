@@ -83,7 +83,8 @@
       <workItem from="1664799036598" duration="904000" />
       <workItem from="1665473404671" duration="2797000" />
       <workItem from="1665584933413" duration="55000" />
-      <workItem from="1666085210988" duration="225000" />
+      <workItem from="1666085210988" duration="804000" />
+      <workItem from="1666253835970" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="add vuetify">
       <created>1658922307586</created>
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665584978312</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add new names">
+      <created>1666085461475</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666085461475</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +351,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add poster" />
     <MESSAGE value="rm pdf to index" />
     <MESSAGE value="add css root" />
     <MESSAGE value="edit pdf name" />
@@ -368,6 +375,7 @@
     <MESSAGE value="edit content" />
     <MESSAGE value="minor changes &amp; target links" />
     <MESSAGE value="minor edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor edit" />
+    <MESSAGE value="add new names" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new names" />
   </component>
 </project>
